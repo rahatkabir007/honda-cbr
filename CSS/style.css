@@ -50,15 +50,31 @@
  .featured .greyscale img{
      filter: grayscale(5);
  }
- .client{
-     margin-top: 64px;
- }
-
+ 
  .client h1{
     font-weight: 600;
     font-size: 48px;
     line-height: 72px;
  }
+.clients-info{
+    margin-top: 44px;
+    margin-bottom: 20px;
+    
+}
+
+ .clients-info .card{
+     border: 1px solid lightgray;
+     padding: 0px 35px;
+ }
+ .clients-info img{
+    width: 149px;
+    height: 149px;
+    left: calc(50% - 149px/2);
+    margin: 30px 0;
+    border-radius: 50%;
+    border: 1px solid lightgray;
+ }
+
 
  @media only screen and (max-width:688px) {
      .heading-text {
@@ -70,9 +86,17 @@
          padding-bottom: 10px;
      }
  }
+ .card{
+     margin-top: 20px;
+     margin-left: 25px;
+ }
 
  @media only screen and (min-width: 688px) and (max-width: 992px) {
      .heading-text {
          padding-top: 30px;
      }
+     .card{
+    
+        margin-left: 200px;
+    }
  }
