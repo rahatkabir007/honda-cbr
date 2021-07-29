@@ -8,6 +8,7 @@
      margin: 0%;
  }
 
+ /* heading css  */
  .heading-text p {
      font-weight: 300;
      font-size: 14px;
@@ -20,7 +21,7 @@
      font-size: 48px;
  }
 
- .heading-text a {
+ .heading-text .purchase {
      background: #E76F51;
      text-decoration: none;
      padding: 10px 30px 10px 30px;
@@ -28,73 +29,117 @@
      border-radius: 5px;
  }
 
- .heading-text a:hover {
+ .heading-text button:hover {
+     background: #E76F51;
      color: white;
  }
- .featured{
+
+ /* featured css  */
+ .featured {
      margin-top: 64px;
  }
- .featured h1{
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 72px;
+
+ .featured h1 {
+     font-weight: 600;
+     font-size: 48px;
+     line-height: 72px;
  }
- .featured p{
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 21px;
-    color: #E76F51;
-   
-    
+
+ .featured p {
+     font-weight: 600;
+     font-size: 14px;
+     line-height: 21px;
+     color: #E76F51;
+
+
  }
- .featured .greyscale img{
+
+ .featured .greyscale img {
      filter: grayscale(5);
  }
- 
- .client h1{
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 72px;
- }
-.clients-info{
-    margin-top: 44px;
-    margin-bottom: 20px;
-    
-}
 
- .clients-info .card{
+ /* clients css  */
+ .client h1 {
+     font-weight: 600;
+     font-size: 48px;
+     line-height: 72px;
+ }
+
+ .clients-info {
+     margin-top: 44px;
+     margin-bottom: 20px;
+
+ }
+
+ .clients-info .card {
      border: 1px solid lightgray;
      padding: 0px 10px;
  }
- .clients-info img{
-    width: 149px;
-    height: 149px;
-    left: calc(50% - 149px/2);
-    margin: 30px 0;
-    border-radius: 50%;
-    border: 1px solid lightgray;
- }
- .faq h1{
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 72px;
- }
- .faq img{
-    width: 431.2px;
-    height: 423.5px;
- }
- .faq .right-area{
-    width: 431.2px;
-    height: 500.5px;
+
+ .clients-info img {
+     width: 149px;
+     height: 149px;
+     left: calc(50% - 149px/2);
+     margin: 30px 0;
+     border-radius: 50%;
+     border: 1px solid lightgray;
  }
 
- .global-models h1{
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 72px;
+ /* faq css  */
+ .faq h1 {
+     font-weight: 600;
+     font-size: 48px;
+     line-height: 72px;
  }
 
+ .faq img {
+     width: 431.2px;
+     height: 423.5px;
+ }
 
+ .faq .right-area {
+     width: 480.2px;
+     height: 500.5px;
+ }
+
+ /* bonus css */
+ .global-models {
+     height: 700px;
+ }
+
+ .global-models h1 {
+     font-weight: 600;
+     font-size: 48px;
+     line-height: 72px;
+ }
+
+ .history {
+     margin: 30px;
+ }
+
+ .history h1 {
+     font-weight: 600;
+     font-size: 48px;
+ }
+
+ .history a {
+     background: #E76F51;
+     text-decoration: none;
+     padding: 10px 30px 10px 30px;
+     color: white;
+     border-radius: 5px;
+ }
+
+ .history a:hover {
+     color: white;
+ }
+
+ .history .right-side img {
+     border-radius: 5px;
+     box-shadow: 2px grey;
+ }
+
+ /* Mobile device */
  @media only screen and (max-width:688px) {
      .heading-text {
          padding-top: 30px;
@@ -104,30 +149,63 @@
          width: 75%;
          padding-bottom: 10px;
      }
-     .card{
-        margin-top: 20px;
-        margin-left: 25px;
-    }
-    .faq img{
-        width: 100%;
-        margin-bottom: 20px;
-       }
-    .faq .right-area{
-        width: 100%;
-        height: 100%;
-    }
-    
+
+     .card {
+         margin-top: 20px;
+         margin-left: 25px;
+     }
+
+     .faq img {
+         width: 100%;
+         margin-bottom: 20px;
+     }
+
+     .faq .right-area {
+         width: 100%;
+         height: 100%;
+     }
+
+     .global-models {
+         height: 100%;
+     }
+
+     .history .left-side {
+         margin: 10px;
+     }
+
+
  }
- 
- 
 
 
+
+ /* Tab */
  @media only screen and (min-width: 688px) and (max-width: 992px) {
      .heading-text {
          padding-top: 30px;
      }
-     .card{
-    
-        margin-left: 200px;
-    }
+
+     .card {
+         margin-bottom: 20px;
+
+     }
+
+     .faq img {
+         width: 50%;
+         height: 50%;
+         margin-left: 190px;
+         margin-bottom: 20px;
+     }
+
+     .faq .right-area {
+         width: 50%;
+         height: 50%;
+     }
+
+     .global-models {
+         height: 100%;
+     }
+
+     .history .left-side {
+         margin: 10px;
+     }
  }
