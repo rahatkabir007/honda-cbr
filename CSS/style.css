@@ -64,7 +64,7 @@
 
  .clients-info .card{
      border: 1px solid lightgray;
-     padding: 0px 35px;
+     padding: 0px 10px;
  }
  .clients-info img{
     width: 149px;
@@ -73,6 +73,25 @@
     margin: 30px 0;
     border-radius: 50%;
     border: 1px solid lightgray;
+ }
+ .faq h1{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+ }
+ .faq img{
+    width: 431.2px;
+    height: 423.5px;
+ }
+ .faq .right-area{
+    width: 431.2px;
+    height: 500.5px;
+ }
+
+ .global-models h1{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
  }
 
 
@@ -85,11 +104,23 @@
          width: 75%;
          padding-bottom: 10px;
      }
+     .card{
+        margin-top: 20px;
+        margin-left: 25px;
+    }
+    .faq img{
+        width: 100%;
+        margin-bottom: 20px;
+       }
+    .faq .right-area{
+        width: 100%;
+        height: 100%;
+    }
+    
  }
- .card{
-     margin-top: 20px;
-     margin-left: 25px;
- }
+ 
+ 
+
 
  @media only screen and (min-width: 688px) and (max-width: 992px) {
      .heading-text {
